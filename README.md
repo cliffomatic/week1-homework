@@ -19,3 +19,6 @@ Stuff I won’t get to:
 - Optional: Tapping on the tabs (requests, messages, etc) should show other view controllers.
 - Optional: Implement the notifications page programatically without using Interface Builder. Don't use table views, just statically layout the views assuming no scrolling.
 - Optional: The left and right navigation buttons should be real buttons. In other words, when you tap on them, they should have a highlight state. The buttons don't do anything when you tap on them.
+
+
+![animated gif](https://raw.githubusercontent.com/cliffomatic/week1-homework/master/fb-post-walkthrough.gif)
