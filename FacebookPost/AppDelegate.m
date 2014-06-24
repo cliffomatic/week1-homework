@@ -7,12 +7,36 @@
 //
 
 #import "AppDelegate.h"
+#import "FBPostViewController.h"
+//#import "MessagesViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    
+    FBPostViewController *vc =[[FBPostViewController alloc] init];
+    self.window.rootViewController = vc;
+    
+    
+    // Create the tab bar controller
+//    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+//    
+//    self.window.rootViewController = tabBarController;
+    
+    
+    
+    // Create the two view controllers
+//    FirstViewController *firstViewController = [[FirstViewController alloc] init];
+//    SecondViewController *secondViewController = [[SecondViewController alloc] init];
+//    
+//    tabBarController.viewControllers = @[firstViewController, firstViewController];
+    
+    
+    
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
